@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  
+
 }
 
-html{
+html {
     font-family: "Roboto", sans-serif;
 }
-header{
+
+header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     text-align: center;
@@ -18,8 +19,8 @@ header{
     padding-block: 20px;
 }
 
-nav{
-    width: 80%;
+nav {
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -33,7 +34,7 @@ nav ul {
     gap: 20px;
 }
 
-.header-cta{
+.header-cta {
     width: 60%;
     margin: 0 auto;
     line-height: 2rem;
@@ -45,7 +46,7 @@ nav ul {
     margin-bottom: 20px;
 }
 
-button{
+button {
     background-color: white;
     border-style: none;
     border-radius: 15px;
@@ -58,13 +59,94 @@ button a {
     font-weight: bold;
 }
 
-.header-btn button{
+.header-btn button {
     margin: 10px 10px;
 }
 
-.header-btn button:nth-of-type(2){
+.header-btn button:nth-of-type(2) {
     background-color: #23272a;
 }
-.header-btn button:nth-of-type(2) a{
+
+.header-btn button:nth-of-type(2) a {
     color: white;
 }
+
+.container {
+    margin-block:100px ;
+    border: 1px solid black;
+}
+
+.container:nth-of-type(even) {
+    background-color: #f6f6f6;
+}
+
+.container:nth-of-type(even) figure {
+    order: 1;
+}
+
+.bg-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bg-container h3 {
+    font-size: 2rem;
+}
+
+.bg-container figure {
+    flex-basis: 60%;
+    border: 1px solid red;
+}
+
+.bg-container .text-container {
+    line-height: 1.3;
+    flex-basis: 40%;
+    padding: 30px;
+    border: 1px solid blue;
+}
+
+.text-container h3 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.text-container p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.l-container {
+    background-color: #f6f6f6;
+}
+
+#last-cont {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#last-cont h3,h5{
+  font-size: 2.5rem;
+  margin-block: 30px;
+}
+
+#last-cont p{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+
+svg{
+    background-color: white;
+    color:#f6f6f6;
+}
+
+#white{
+    color: white;
+    background-color: #f6f6f6;
+}
+
