@@ -118,6 +118,7 @@ button a {
 
 .l-container {
     background-color: #f6f6f6;
+    text-align: center;
 }
 
 #last-cont {
@@ -138,7 +139,21 @@ button a {
     font-weight: 500;
 }
 
+#mac-download {
+    background-color: #8ea1e1;
+}
 
+#mac-download a {
+    color: white;
+}
+
+.stars{
+    width: 60%;
+    margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 svg{
     background-color: white;
