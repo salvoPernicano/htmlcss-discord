@@ -119,6 +119,7 @@ button a {
 .l-container {
     background-color: #f6f6f6;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 #last-cont {
@@ -165,3 +166,50 @@ svg{
     background-color: #f6f6f6;
 }
 
+footer{
+    background-color: #23272a;
+}
+
+.f-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding-block: 50px;
+}
+
+
+
+footer h4 {
+    color: #7289da;
+}
+
+footer span {
+    color: white;
+}
+
+.f-container ul {
+    list-style: none;
+}
+
+.f-container ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 200%;
+}
+
+.f-container > div{
+    flex-grow: 1;
+}
+
+.f-container>div:first-child{
+    flex-grow: 2;
+}
+
+#logoSubscribe{
+    border-top: 1px solid #7289da;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 50px;
+}
