@@ -72,9 +72,7 @@ button a {
     color: white;
 }
 
-.container {
-    margin-block: 100px;
-}
+
 
 .container:nth-of-type(even) {
     background-color: #f6f6f6;
